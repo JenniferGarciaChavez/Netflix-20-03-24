@@ -1,0 +1,67 @@
+body{
+    background-color:black;
+}
+.netflix{
+    display: flex;
+    border-style: double;
+}
+.im1
+{
+    width: 150px;
+}
+.titulosN{
+    color: white;
+    align-self: center;             /*Para que el texto se alinie al centro de la imagen a un lado*/
+}
+
+.derecha{
+    color: white;
+    display: flex;                  /*Para que la img se pueda mover con el texto*/
+    justify-content: right;         /*Para que pueda estar la imagen en la esquina derecha*/
+    border-right: end;
+}
+.Us1{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+.Us2{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;              /*Margen antes de la img (espaciado)*/
+}
+.nf{
+    width: 20px;
+}
+.Us{
+    width: 20px;
+}
+.im2{
+    margin-right: 50px;
+}
+.Net{
+    display:contents;               /*Para que se pueda hacer efecto de una img de un lado y otra del otro extremo*/
+}
+.Prin{
+    color: white;
+    background-image: url(C3.jpg);
+    background-repeat: no-repeat;
+    background-position:left right ;
+    background-size: cover;
+    padding: 300px;
+    width: 1500;
+    height: 1500;
+    text-align:start;
+}
+.prin{
+    width: 1500px;
+    color: white;
+}
+.Pt{
+    color: white;                   /*Color de las letras*/
+}
+.PT{
+    margin-right: 30px;             /*Espacio entre imagenes despues de la img*/
+    width: 215px;                   /*Ancho de una imagen*/
+    height: 280px;                   /*Alto de una imagen*/
+}
